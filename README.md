@@ -1,6 +1,6 @@
 # slides-lightning-talks
 
-> :clipboard: Slides for TODO
+> :clipboard: Slides for whole year of WarsawJS lightning talks.
 
 ## Preview
 
@@ -8,7 +8,7 @@ TODO
 
 ## Organization logo
 
-TODO
+![](./images/warsawjs/logo-white-400x400.jpg)
 
 ## Event in social media
 
