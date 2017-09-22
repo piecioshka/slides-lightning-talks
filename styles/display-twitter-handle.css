@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* Display Twitter handle on each slides (without first) */
+
+.remark-slide-container:nth-of-type(n + 2) .remark-slide-content:after {
+    content: '@piecioshka';
+    position: absolute;
+    left: 20px;
+    bottom: 12px;
+    font-weight: 300;
+    opacity: 0.5;
+}
