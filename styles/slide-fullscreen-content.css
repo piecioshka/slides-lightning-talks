@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.remark-slide-content.slide-fullscreen-content {
+    padding: 0;
+}
+
+.remark-slide-content.slide-fullscreen-content p {
+    margin: 0;
+}
+
+.remark-slide-content.slide-fullscreen-content .remark-slide-number,
+.remark-slide-content.slide-fullscreen-content:after {
+    display: none !important;
+}

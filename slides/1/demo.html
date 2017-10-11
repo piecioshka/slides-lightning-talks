@@ -1,0 +1,48 @@
+<meta charset="utf-8"/>
+<title>Intersection Observer</title>
+
+<style>
+
+    body {
+        margin: 0;
+    }
+
+    div {
+        position: absolute;
+        left: 50px;
+        top: 800px;
+
+        background: lightcoral;
+        width: 500px;
+        height: 500px;
+    }
+
+    img {
+        background: red;
+        display: block;
+        margin: 50px;
+    }
+</style>
+
+<div>
+    <img
+            data-src="../../images/warsawjs/logo-transparent-400x400.png"
+            src=""
+            alt=""
+    />
+</div>
+
+<script>
+    let $image = document.querySelector('img');
+    let observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                console.log('Element visible on viewport');
+
+                observer.disconnect();
+                $image.src = $image.dataset.src;
+            }
+        });
+    });
+    observer.observe($image);
+</script>
