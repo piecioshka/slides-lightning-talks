@@ -9,9 +9,14 @@
 * https://piecioshka.github.io/slides-lightning-talks/1/
 * https://piecioshka.github.io/slides-lightning-talks/1/demo.html
 
-### 2) Wskazówki dla prelegentów jak robić prelekcje na meetupy
+### 2) Is My JSON Valid
 
-### 3) TBA
+* https://piecioshka.github.io/slides-lightning-talks/2/
+* https://piecioshka.github.io/slides-lightning-talks/2/demo.html
+
+### 3) Wskazówki dla prelegentów jak robić prelekcje na meetupy
+
+### 4) TBA
 
 ## Organization logo
 
