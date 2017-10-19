@@ -6,13 +6,13 @@
 
 ### 1) Intersection Observer
 
-* https://piecioshka.github.io/slides-lightning-talks/1/
-* https://piecioshka.github.io/slides-lightning-talks/1/demo.html
+* https://piecioshka.github.io/slides-lightning-talks/slides/1/
+* https://piecioshka.github.io/slides-lightning-talks/slides/1/demo.html
 
 ### 2) Is My JSON Valid
 
-* https://piecioshka.github.io/slides-lightning-talks/2/
-* https://piecioshka.github.io/slides-lightning-talks/2/demo.html
+* https://piecioshka.github.io/slides-lightning-talks/slides/2/
+* https://piecioshka.github.io/slides-lightning-talks/slides/2/demo.html
 
 ### 3) Wskazówki dla prelegentów jak robić prelekcje na meetupy
 
