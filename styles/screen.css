@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
 }

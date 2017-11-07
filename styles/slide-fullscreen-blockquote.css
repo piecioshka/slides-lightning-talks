@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.remark-slide-content.slide-fullscreen-blockquote {
+    /*padding: 0;*/
+}
+
+.remark-slide-content.slide-fullscreen-blockquote blockquote,
+.remark-slide-content.slide-fullscreen-blockquote p {
+    padding: 0;
+    margin: 0;
+}
+
+.remark-slide-content.slide-fullscreen-blockquote blockquote {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.remark-slide-content.slide-fullscreen-blockquote blockquote small {
+    display: block;
+    text-align: right;
+    margin: 30px 0 0 0;
+    color: gray;
+}
+
+.remark-slide-content.slide-fullscreen-blockquote blockquote small::before {
+    content: ' ';
+    border-bottom: 3px solid;
+    width: 100px;
+    height: 3px;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}

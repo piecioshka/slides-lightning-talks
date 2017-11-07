@@ -2,6 +2,7 @@
 
 .remark-slide-content.slide-fullscreen-content {
     padding: 0;
+    background-size: cover;
 }
 
 .remark-slide-content.slide-fullscreen-content p {
