@@ -1,0 +1,26 @@
+<script src="../../../../is-my-json-valid/imjv.js"></script>
+<script src="schemas/scheme.js"></script>
+<script>
+    const validateResponse = imjv(SCHEME);
+
+    fetch('./resources/malformed.json')
+        .then((response) => {
+            if (response.ok) {
+                return response.json();
+            }
+            return {};
+        })
+        .then((responseJson) => {
+            const isResponseValid = validateResponse(responseJson);
+
+            if (!isResponseValid) {
+                return validateResponse.errors;
+            }
+
+            return responseJson;
+        })
+        .then((responseString) => {
+            console.info('4-malformed-response');
+            console.log(responseString);
+        });
+</script>

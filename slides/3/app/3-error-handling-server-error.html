@@ -1,0 +1,19 @@
+<script>
+    fetch('./resources/error.json')
+        .then((response) => {
+            if (response.ok) {
+                return response.json();
+            }
+            return {};
+        })
+        .then((responseJson) => {
+            if (responseJson.error) {
+                return responseJson.error;
+            }
+            return responseJson;
+        })
+        .then((responseString) => {
+            console.info('3-error-handling-server-error');
+            console.log(responseString);
+        });
+</script>

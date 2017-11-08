@@ -1,0 +1,10 @@
+<script>
+    fetch('./resources/ok.json')
+        .then((response) => {
+            return response.json();
+        })
+        .then((responseString) => {
+            console.info('1-happy-path');
+            console.log(responseString);
+        });
+</script>

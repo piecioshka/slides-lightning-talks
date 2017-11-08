@@ -8,7 +8,7 @@
 .size10 h5,
 .size10 h6,
 .size10 .remark-code {
-    font-size: 10px;
+    font-size: 10px !important;
 }
 
 .size20,
@@ -19,7 +19,7 @@
 .size20 h5,
 .size20 h6,
 .size20 .remark-code {
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 .size30,
@@ -30,7 +30,7 @@
 .size30 h5,
 .size30 h6,
 .size30 .remark-code {
-    font-size: 30px;
+    font-size: 30px !important;
 }
 
 .size40,
@@ -41,7 +41,7 @@
 .size40 h5,
 .size40 h6,
 .size40 .remark-code {
-    font-size: 40px;
+    font-size: 40px !important;
 }
 
 .size50,
@@ -52,7 +52,7 @@
 .size50 h5,
 .size50 h6,
 .size50 .remark-code {
-    font-size: 50px;
+    font-size: 50px !important;
 }
 
 .size60,
@@ -63,7 +63,7 @@
 .size60 h5,
 .size60 h6,
 .size60 .remark-code {
-    font-size: 60px;
+    font-size: 60px !important;
 }
 
 .size70,
@@ -74,7 +74,7 @@
 .size70 h5,
 .size70 h6,
 .size70 .remark-code {
-    font-size: 70px;
+    font-size: 70px !important;
 }
 
 .size80,
@@ -85,7 +85,7 @@
 .size80 h5,
 .size80 h6,
 .size80 .remark-code {
-    font-size: 80px;
+    font-size: 80px !important;
 }
 
 .size90,
@@ -96,7 +96,7 @@
 .size90 h5,
 .size90 h6,
 .size90 .remark-code {
-    font-size: 90px;
+    font-size: 90px !important;
 }
 
 .size100,
@@ -107,7 +107,7 @@
 .size100 h5,
 .size100 h6,
 .size100 .remark-code {
-    font-size: 100px;
+    font-size: 100px !important;
 }
 
 .size110,
@@ -118,7 +118,7 @@
 .size110 h5,
 .size110 h6,
 .size110 .remark-code {
-    font-size: 110px;
+    font-size: 110px !important;
 }
 
 .size120,
@@ -129,7 +129,7 @@
 .size120 h5,
 .size120 h6,
 .size120 .remark-code {
-    font-size: 120px;
+    font-size: 120px !important;
 }
 
 .size130,
@@ -140,5 +140,5 @@
 .size130 h5,
 .size130 h6,
 .size130 .remark-code {
-    font-size: 130px;
+    font-size: 130px !important;
 }

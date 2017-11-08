@@ -51,6 +51,14 @@ code {
     display: inline-block;
 }
 
+em {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0 15px;
+    background: #2380e6;
+    font-style: normal;
+}
+
 mark {
     border-radius: 5px;
     display: inline-block;

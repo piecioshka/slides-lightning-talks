@@ -7,26 +7,23 @@
 ### 1) Intersection Observer
 
 * https://piecioshka.github.io/slides-lightning-talks/slides/1/
-* https://piecioshka.github.io/slides-lightning-talks/slides/1/demo.html
+* https://piecioshka.github.io/slides-lightning-talks/slides/1/app/
 
-### 2) Is My JSON Valid
+### 2) TypeScript: What's for interfaces?
 
 * https://piecioshka.github.io/slides-lightning-talks/slides/2/
-* https://piecioshka.github.io/slides-lightning-talks/slides/2/demo.html
 
-### 3) Wskazówki dla prelegentów jak robić prelekcje na meetupy
+### 3) Is My JSON Valid
 
-### 4) TBA
+* https://piecioshka.github.io/slides-lightning-talks/slides/3/
+* https://piecioshka.github.io/slides-lightning-talks/slides/3/app/1-happy-path.html
+* https://piecioshka.github.io/slides-lightning-talks/slides/3/app/2-error-handling.html
+* https://piecioshka.github.io/slides-lightning-talks/slides/3/app/3-error-handling-server-error.html
+* https://piecioshka.github.io/slides-lightning-talks/slides/3/app/4-malformed-response.html
 
-## Organization logo
+## Ideas for next lightning talks? Open an issue if you have some!
 
-![](./images/warsawjs/logo-white-400x400.jpg)
-
-## Event in social media
-
-* WarsawJS Meetup #38
-    - https://www.facebook.com/events/140250189924922/
-    - https://www.meetup.com/WarsawJS/events/243756529/
+* Wskazówki dla prelegentów jak robić prelekcje na meetupy
 
 ## Slides engine: [remarkjs](http://remarkjs.com)
 

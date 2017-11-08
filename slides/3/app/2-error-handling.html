@@ -1,0 +1,16 @@
+<script>
+    fetch('./resources/file-not-found.json')
+        .then((response) => {
+            if (response.ok) {
+                return response.json();
+            }
+            return {
+                code: response.status,
+                message: response.statusText
+            };
+        })
+        .then((responseString) => {
+            console.info('2-error-handling');
+            console.log(responseString);
+        });
+</script>

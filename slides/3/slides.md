@@ -1,190 +1,198 @@
-class: middle, center, slide-invert-colors, slide-fullscreen-content
+class: middle, center, slide-invert-colors
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6627.jpg)
 
-# Angular Warsaw Meetup #16: Lightning Talks
+# WarsawJS Meetup #39:<br/><mark>Lightning Talks</mark>
 
 ---
 
 class: middle, slide-invert-colors
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5564.jpg)
 
-# Jak budować<br/>poprawnie<br/>interfejs?
-
----
-
-class: bottom, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5340.jpg)
-
-# Nie `UI`<br/>tylko `OOP`
-
----
-
-class: middle, center, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
-
-# Przerywnik
-
-.size60[
-## `interface` vs `abstract class`
-]
-
----
-
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
-
-.size40[
-```typescript
-interface MobileInterface {
-    screen: string;
-    size: {
-        width: number;
-        height: number;
-    };
-    callMe: Function
-}
-```
-]
-
----
-
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
-
-.size40[
-```typescript
-abstract class Mobile {
-    screen: 'retina';
-    size: {
-        width: 10;
-        height: 5;
-    };
-    callMe: () => {
-        // ... 
-    }
-}
-```
-]
-
----
-
-class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5521.jpg)
-
-# Po co jest?
-
-## <mark>Zapewnienie kontraktu? Mmmm.... 😶</mark>
-## <mark>Żeby WebStorm nie krzyczał 😎</mark>
-## <mark>Aby znać budowę struktury danych ‼️</mark>
+## Programisto aplikacji<br/>klienckich, jak realizujesz<br/>komunikację z serwerem?
 
 ---
 
 class: middle, slide-invert-colors
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5889.jpg)
 
-# Możliwości interfejsu
-
-.size30[
-```
-?
-readonly
-<type> ex. string, number, boolean
-[propName: string]: any;
-multi inheritance
-casting
-```
-]
+# Jak wygląda realizacja połączenia aplikacji klienckiej do serwera?
 
 ---
 
-class: middle, center
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6600.jpg)
-
-.size90[ 
-`readonly vs const`
-]
+class: middle, center, slide-fullscreen-content
+background-image: url(./docs/0-scheme.png)
 
 ---
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
+class: middle, center, slide-fullscreen-content
+background-image: url(./docs/1-request.png)
 
-.size20[
-```typescript
-type Person = string;
+---
 
-interface KeyboardKeys {
-    [key: number]: string;
-}
-
-interface Computer {
-    owner?: Person;
-    readonly manufacture: string
-    keys: KeyboardKeys
-}
-
-interface MacBook extends Computer {
-    isOwnerHasIphone: boolean;
-}
-
-function buy(computer: Computer) {
-    console.log(computer);
-}
-
-buy(<MacBook> {});
-```
-]
+class: middle, center, slide-fullscreen-content
+background-image: url(./docs/2-response.png)
 
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6097.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5364.jpg)
 
-# Różnice między <mark>interfejsem</mark> a <mark>modelem</mark>
+# Happy path 😁
 
----
-
-class: middle, right, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5827.jpg)
-
-## <mark>Model</mark>
-## Propsy (stan),<br/>funkcje (zachowanie)
-## <mark>Interfejs</mark>
-## Definicja propsów
+## Komunikacja z serwerem zakończona sukcesem.<br/>Dane pomyślnie sparsowane.
 
 ---
 
-class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6211.jpg)
+class: bottom
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5340.jpg)
 
-# Połączenie między <mark>interfejsem</mark> a <mark>modelem</mark>?
+# [DEMO No. 1](./app/1-happy-path.html)
 
 ---
 
-class: bottom, right, slide-invert-colors
+class: top, right, slide-invert-colors
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5463.jpg)
 
-# Kodujemy?
+# Czy to koniec?<br/><mark>Nie.</mark>
+
+---
+
+class: top, right, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6153.jpg)
+
+# <mark>Error handling</mark><br/>HTTP Error
+
+---
+
+class: bottom
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5340.jpg)
+
+# [DEMO No. 2](./app/2-error-handling.html)
+
+---
+
+class: top, right, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5463.jpg)
+
+# Czy to koniec?<br/><mark>Nie.</mark>
+
+---
+
+class: top, right, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6153.jpg)
+
+# <mark>Error handling</mark><br/>Server Error
+
+---
+
+class: bottom
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5340.jpg)
+
+# [DEMO No. 3](./app/3-error-handling-server-error.html)
+
+---
+
+class: top, right, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5463.jpg)
+
+# Czy to koniec?<br/><mark>Nie.</mark>
+
+---
+
+class: top, right, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6153.jpg)
+
+# <mark>Error handling</mark><br/>Malformed<br/>Response
 
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6543.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5842.jpg)
 
-# <mark>TypeScript</mark>, czyli tylko statyczna weryfikacja
+# Co to jest `schema`?
 
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6603.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5842.jpg)
 
-# Jak zapewnić<br/>weryfikację w locie?
+### Schema <em>Przykład</em>
+
+```javascript
+const SCHEME = {
+    required: true,
+    type: 'object',
+    properties: {
+        cat: {
+            required: true,
+            type: 'object',
+            properties: {
+                name: {
+                    required: true,
+                    type: 'string'
+                },
+                owner: {
+                    required: true,
+                    type: 'string'
+                }
+            }
+        }
+    }
+};
+```
+
+---
+
+class: middle, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
+
+# Narzędzie: [`is-my-json-valid`][repo]
+
+---
+
+class: middle, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5928.jpg)
+
+# <mark>Walidujemy odpowiedź</mark>,<br/>czy jest zgodna ze schemą!
+
+---
+
+class: middle, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5928.jpg)
+
+### Przykład walidacji <mark>struktury obiektu</mark>
+
+.size40[
+```javascript
+const imjv = require('is-my-valid-json')
+const validate = imjv(SCHEME);
+const isResponseValid = validate(DATA);
+
+if (!isResponseValid) {
+    return validate.errors;
+}
+```
+]
+
+---
+
+class: bottom
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5340.jpg)
+
+# [DEMO No. 4](./app/4-malformed-response.html)
+
+---
+
+class: top, right, slide-invert-colors
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5463.jpg)
+
+# Czy to koniec?
 
 ---
 
 class: middle, right, slide-invert-colors
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6232.jpg)
 
-# is-my-json-valid
+# Dla mnie <mark>tak</mark>.<br/>A dla Ciebie?
 
-## ... ale o tym jutro na<br/> [WarsawJS Meetup #39][warsawjs-39]
-
-
-[warsawjs-39]: https://www.meetup.com/WarsawJS/events/244354442/
+[repo]: https://github.com/mafintosh/is-my-json-valid
