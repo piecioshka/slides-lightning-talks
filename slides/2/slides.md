@@ -1,26 +1,26 @@
 class: middle, center, slide-invert-colors, slide-fullscreen-content
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6627.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_6627.jpg)
 
 # Angular Warsaw Meetup #16: Lightning Talks
 
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5564.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5564.jpg)
 
 # Jak budować<br/>poprawnie<br/>interfejs?
 
 ---
 
 class: bottom, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5340.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5340.jpg)
 
 # Nie `UI`<br/>tylko `OOP`
 
 ---
 
 class: middle, center, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5632.jpg)
 
 # Przerywnik
 
@@ -30,7 +30,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 ---
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5632.jpg)
 
 .size40[
 ```typescript
@@ -47,7 +47,7 @@ interface MobileInterface {
 
 ---
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5632.jpg)
 
 .size40[
 ```typescript
@@ -67,7 +67,7 @@ abstract class Mobile {
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5521.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5521.jpg)
 
 # Po co jest?
 
@@ -78,7 +78,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5889.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5889.jpg)
 
 # Możliwości interfejsu
 
@@ -96,7 +96,7 @@ casting
 ---
 
 class: middle, center
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6600.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_6600.jpg)
 
 .size90[ 
 `readonly vs const`
@@ -104,7 +104,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 ---
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5632.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5632.jpg)
 
 .size20[
 ```typescript
@@ -135,14 +135,14 @@ buy(<MacBook> {});
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6097.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_6097.jpg)
 
 # Różnice między <mark>interfejsem</mark> a <mark>modelem</mark>
 
 ---
 
 class: middle, right, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5827.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5827.jpg)
 
 ## <mark>Model</mark>
 ## Propsy (stan),<br/>funkcje (zachowanie)
@@ -152,35 +152,35 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6211.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_6211.jpg)
 
 # Połączenie między <mark>interfejsem</mark> a <mark>modelem</mark>?
 
 ---
 
 class: bottom, right, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_5463.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_5463.jpg)
 
 # Kodujemy?
 
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6543.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_6543.jpg)
 
 # <mark>TypeScript</mark>, czyli tylko statyczna weryfikacja
 
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6603.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_6603.jpg)
 
 # Jak zapewnić<br/>weryfikację w locie?
 
 ---
 
 class: middle, right, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/photos/IMG_6232.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/IMG_6232.jpg)
 
 # is-my-json-valid
 
