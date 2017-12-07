@@ -21,13 +21,30 @@
 * https://piecioshka.github.io/slides-lightning-talks/slides/3/app/3-error-handling-server-error.html
 * https://piecioshka.github.io/slides-lightning-talks/slides/3/app/4-malformed-response.html
 
-### 4) Be a Console master
+### 4) Be a Console Master
 
 * https://piecioshka.github.io/slides-lightning-talks/slides/4/
 
 ### 5) Konwersja danych na modele
 
 ### 6) Vue.js + Socket.io
+
+### 7) Pattern Matching
+
+* https://github.com/tc39/proposal-pattern-matching
+* https://z-pattern-matching.github.io/
+
+### 8) WarJS: Gulp & Grunt - manager zadań, który lepszy?
+
+### 9) WarJS: Jasmine & Mocha & QUnit & SinonJS - która biblioteka do testów jest lepsza?
+
+### 10) Nighwatch.js: Twoje pierwsze testy integracyjne
+
+### 11) Bezpieczeństwo w JavaScript - czyli jak podpisać swój kod źródłowy?
+
+### 12) HTML5 - co możemy wykorzystać nowego dzięki nowym specyfikacjom W3C
+
+### 13) WebRTC - piszemy drugiego Skype 
 
 ## Ideas for next lightning talks? Open an issue if you have some!
 

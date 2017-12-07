@@ -56,13 +56,13 @@ Oraz:
 
 TODO: wykres
 
-Rafał, Czarek, Krzysiek, Przemysław, Bartek, Ania
+Rafał, Czarek, Krzysiek, Przemysław, Bartek, Ania, Michał
 
-- log: 1 + 1 + 1 + 1 + 1 + 1
-- info: 0 + 0 + 0 + 0 + 0 + 0
-- debug: 0 + 0 + 0 + 0 + 0 + 0
-- warn: 1 + 1 + 0 + 1 + 0 + 0
-- error: 1 + 1 + 0 + 1 + 0 + 1
+- log: 1 + 1 + 1 + 1 + 1 + 1 + 1
+- info: 0 + 0 + 0 + 0 + 0 + 0 + 1
+- debug: 0 + 0 + 0 + 0 + 0 + 0 + 1
+- warn: 1 + 1 + 0 + 1 + 0 + 0 + 1
+- error: 1 + 1 + 0 + 1 + 0 + 1 + 1
 
 ---
 
@@ -75,6 +75,7 @@ Rafał, Czarek, Krzysiek, Przemysław, Bartek, Ania
     - Logowanie do konsoli przeglądarki informacji ogólnych - pojawi się gdy zaznaczony filtr będzie `Info`
     - Używam console.log raczej tylko do debugowania, nie używam innych funkcji obiektu console, wolę sobie narysować interesującego mnie loga poprzez log poprzedzający `console.log('/////////////////////////////////////////////////////////////////')`, bo jestem raczej wzrokowcem  i szybciej mi się wzrok skupia na  takim narysowanym logu.
     - info dla developera, wyplucie dowolnej, potrzebnej na bieżące potrzeby rzeczy
+    - logowanie informacji użytecznych głównie dla deweloperów
 - info
     - printowanie na konsole tresci informacyjnych (nie uzywam)
     - podobnie jak pierwszy, tylko chyba się wyświetla ikonka `i` czasem - nie używam
@@ -82,7 +83,8 @@ Rafał, Czarek, Krzysiek, Przemysław, Bartek, Ania
     - podobnie jak log z możlwością pofiltrowania w przeglądarce - pojawi się gdy zaznaczony filtr będzie `Info`
     - nie widziałem nigdy potrzeby rozgraniczenia na log i info
     - zgodnie z przeznaczeniem, tj: tutaj mam problem z rozróżnieniem kiedy `.info`, a kiedy `.log`
-    -  coś, co daje obraz, że jakaś rzecz się wykonała (bo np. coś od niej zależy, wiec chcemy wiedzieć, że jeśli rzecz B się wywala, to dlatego, że A nie poszła)
+    - coś, co daje obraz, że jakaś rzecz się wykonała (bo np. coś od niej zależy, wiec chcemy wiedzieć, że jeśli rzecz B się wywala, to dlatego, że A nie poszła)
+    - logowanie informacji pomocniczych
 - debug
     - printowanie na konsole tresci debugowych (nie uzywam)
     - nie używam, chyba alias do `console.log`
@@ -90,6 +92,7 @@ Rafał, Czarek, Krzysiek, Przemysław, Bartek, Ania
     - logowanie tylko pokaże się dopiero gdy w przglądarce jest zaznaczony `Verbose, defaultowo opcja wyłączona
     - jak wyświetlam informację którą aktualnie debuguje, z tego co widzę pojawiła się taka opcja stosunkowo nie dawno.
     - zgodnie z przeznaczeniem, tj: podczas debugowania
+    - logowanie informacji użytecznych głównie dla deweloperów
 - warn
     - printowanie na konsole tresci ostrzegających o czyms (uzywam do wyswietlenia ostrzezen/bledow niekrytycznych dla aplikacji)
     - wrzuca wrning do konsoli, wyświetla się w innym kolorze z ikonką `!`
@@ -98,6 +101,7 @@ Rafał, Czarek, Krzysiek, Przemysław, Bartek, Ania
     - jak chce wyświetlić informację którą nie można ignorować
     - zgodnie z przeznaczeniem, tj: to samo, nie wiem przed czym z JSa można warnować - dobrym przykladem na warny są warny z shaki - ostrzegają o możliwym zagrożeniu przy korzystaniu z api które ma być deprecated - ale przy naszych aplikacjach to raczej nie ma miejsca
     - jak nazwa wskazuje, jakieś ostrzeżenie, coś się dzieje, ale pacjent jeszcze oddycha :slightly_smiling_face:
+    - logowanie ostrzeżeń, drobnych błędów nie mających krytycznego znaczenia dla działania aplikacji
 - error
     - printowanie na konsole tresci z bleden (uzywam do wyswietlenia bledow krytycznych aplikacji - np. blad zapytania do uslugi GetMedia)
     - wrzuca error do konsoli, wyświetla się na czerwono i dostępny jest kontekst owego błędu
@@ -106,6 +110,7 @@ Rafał, Czarek, Krzysiek, Przemysław, Bartek, Ania
     - Użyje jak chce wyświetlić błąd krytyczny
     - zgodnie z przeznaczeniem, tj: errory jeśli chcemy lognąć coś z errora
     - wykrzaczenie, spodziewany błąd (do zastosowania przy obsłudze błędów)
+    - logowanie błędów krytycznych
 
 ---
 
@@ -132,6 +137,31 @@ class: middle
 ---
 
 # Mój sposób na logi... to paczka `debug` ✨
+
+---
+
+# Filtrowanie
+
+- localStorage
+- DevTools
+
+---
+
+### Filtrowanie: localStorage
+
+Glob Pattern
+
+---
+
+```javascript
+const console = {
+    log: require('debug')('app:component:log'),
+    info: require('debug')('app:component:info'),
+    debug: require('debug')('app:component:debug'),
+    warn: require('debug')('app:component:warn'),
+    error: (typeof window === 'object' && window || global).console.error
+};
+```
 
 ---
 
