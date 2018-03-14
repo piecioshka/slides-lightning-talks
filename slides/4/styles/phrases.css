@@ -1,0 +1,100 @@
+.phrase-1 {
+    position: absolute;
+    left: 20px;
+    top: 380px;
+    font-size: 70px;
+    line-height: 140px;
+}
+
+.phrase-2 {
+    position: absolute;
+    left: 810px;
+    top: 10px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.phrase-2 pre {
+    font-family: "Open Sans", sans-serif;
+}
+
+.phrase-3 {
+    position: absolute;
+    left: 250px;
+    top: 210px;
+    font-weight: 300;
+}
+
+.phrase-3 pre {
+    font-family: "Open Sans", sans-serif;
+}
+
+.phrase-4 {
+    position: absolute;
+    left: 570px;
+    top: 400px;
+    text-align: center;
+}
+
+.phrase-5 {
+    position: absolute;
+    left: 960px;
+    top: 600px;
+}
+
+.phrase-6 {
+    position: absolute;
+    left: 190px;
+    top: 10px;
+}
+
+.logo-angular {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.logo-angular img {
+    width: 150px;
+}
+
+.logo-typescript {
+    position: absolute;
+    left: 880px;
+    top: 210px;
+}
+
+.logo-typescript img {
+    width: 120px;
+}
+
+.logo-express {
+    position: absolute;
+    left: 0px;
+    top: 340px;
+    transform: rotate(30deg);
+}
+
+.logo-express img {
+    width: 200px;
+}
+
+.logo-rxjs {
+    position: absolute;
+    left: 910px;
+    top: 450px;
+}
+
+.logo-rxjs img {
+    width: 90px;
+}
+
+.logo-lodash {
+    position: absolute;
+    left: 1080px;
+    top: 390px;
+}
+
+.logo-lodash img {
+    width: 50px;
+}

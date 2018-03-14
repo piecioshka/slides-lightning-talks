@@ -21,20 +21,22 @@
 * https://piecioshka.github.io/slides-lightning-talks/slides/3/app/3-error-handling-server-error.html
 * https://piecioshka.github.io/slides-lightning-talks/slides/3/app/4-malformed-response.html
 
-### 4) Be a Console Master
+### 4) Biggest project on my life... IPLA.tv
 
 * https://piecioshka.github.io/slides-lightning-talks/slides/4/
 
-### 5) Konwersja danych na modele
+### 5) Be a Console Master
 
-### 6) Vue.js + Socket.io
+* https://piecioshka.github.io/slides-lightning-talks/slides/5/
 
-### 7) Pattern Matching
+### 6) Konwersja danych na modele
+
+### 7) Vue.js + Socket.io
+
+### 8) Pattern Matching
 
 * https://github.com/tc39/proposal-pattern-matching
 * https://z-pattern-matching.github.io/
-
-### 8) WarJS: Gulp & Grunt - manager zadań, który lepszy?
 
 ### 9) WarJS: Jasmine & Mocha & QUnit & SinonJS - która biblioteka do testów jest lepsza?
 
