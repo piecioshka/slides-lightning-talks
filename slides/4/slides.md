@@ -104,3 +104,12 @@ Deps size 📦 `504 MB`
         - odwrotnie
 
 4. chcecie zobaczyć jak mi poszło? zobacz na www.ipla.tv
+
+---
+
+class: middle, slide-invert-colors
+background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
+
+.size60[
+# Dziękuję ❤️
+]
