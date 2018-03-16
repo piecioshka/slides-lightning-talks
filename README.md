@@ -21,7 +21,7 @@
 * https://piecioshka.github.io/slides-lightning-talks/slides/3/app/3-error-handling-server-error.html
 * https://piecioshka.github.io/slides-lightning-talks/slides/3/app/4-malformed-response.html
 
-### 4) Biggest project on my life... IPLA.tv
+### 4) Biggest project in my life... IPLA.tv
 
 * https://piecioshka.github.io/slides-lightning-talks/slides/4/
 
