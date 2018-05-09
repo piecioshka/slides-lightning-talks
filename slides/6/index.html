@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lightning talks</title>
+    <meta charset="utf-8"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,800&amp;subset=latin-ext"
+          rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../../styles/screen.css"/>
+    <link rel="stylesheet" href="../../styles/print.css"/>
+    <link rel="stylesheet" href="../../styles/font-sizes.css"/>
+    <link rel="stylesheet" href="../../styles/display-twitter-handle.css"/>
+    <link rel="stylesheet" href="../../styles/slide-fullscreen-content.css"/>
+    <link rel="stylesheet" href="../../styles/slide-fullscreen-blockquote.css"/>
+    <link rel="stylesheet" href="../../styles/slide-invert-colors.css"/>
+    <style>
+        textarea {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="source"></textarea>
+    <script src="../../vendors/remarkjs/remark-0.14.1.min.js"></script>
+    <script>
+        remark.create({
+            sourceUrl: 'slides.md',
+            ratio: '16:9',
+            countIncrementalSlides: false
+        });
+    </script>
+</body>
+</html>
