@@ -22,7 +22,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 # 1. Nie pal mostów
 
 - Nie odchodź z powodu emocji.
-- Nie przyjmuj kontroferty od obecnego pracodawcy, bo przecież nie chodzi Ci o pieniądze, tylko chcesz robić coś nowego.
+- Nie przyjmuj kontroferty od obecnego pracodawcy,<br/>bo przecież nie chodzi Ci o pieniądze, tylko chcesz robić coś nowego.
 
 ---
 
@@ -46,7 +46,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 # 3. Nie narzekaj na obecnego pracodawcę
 
-- Nie opowiadaj, że teraz będzie pracował w NAJLEPSZEJ firmie pod słońcem.
+- Nie opowiadaj, że teraz będziesz pracował w NAJLEPSZEJ firmie pod słońcem.
 
 ---
 
