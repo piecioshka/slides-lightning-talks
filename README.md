@@ -1,6 +1,6 @@
 # slides-lightning-talks
 
-> :clipboard: Slides for whole year of WarsawJS lightning talks.
+> :clipboard: Slides for WarsawJS Meetup lightning talks session.
 
 ## Plan for topics of speeches
 
