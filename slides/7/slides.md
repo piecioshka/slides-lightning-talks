@@ -20,6 +20,11 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 ---
 
+Zapraszam na szkolenie:
+https://www.facebook.com/events/2133561886872334/
+
+---
+
 class: top, right, slide-invert-colors
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-2/IMG_4792.jpg)
 
