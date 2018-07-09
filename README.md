@@ -29,24 +29,30 @@
 
 * https://piecioshka.github.io/slides-lightning-talks/slides/5/
 
-### 6) :bulb: Be a Console Master
+### 6) :bulb: Mocha: Twoje pierwsze testy jednostkowe
 
 * https://piecioshka.github.io/slides-lightning-talks/slides/6/
 
-### 7) :bulb: Konwersja danych na modele
+### 7) :bulb: Nightwatch.js: Twoje pierwsze testy end-to-end
 
-### 8) :bulb: Vue.js + Socket.io
+* https://piecioshka.github.io/slides-lightning-talks/slides/7/
 
-### 9) :bulb: Pattern Matching
+### 8) :bulb: Jest: Twoje pierwsze testy integracyjne
+
+* https://piecioshka.github.io/slides-lightning-talks/slides/8/
+
+### 9) :bulb: Zostać Mistrzem Konsoli DevTools
+
+* https://piecioshka.github.io/slides-lightning-talks/slides/9/
+
+### 10) :bulb: Vue.js + Socket.io
+
+### 11) :bulb: Pattern Matching
 
 * https://github.com/tc39/proposal-pattern-matching
 * https://z-pattern-matching.github.io/
 
-### 10) :bulb: Nighwatch.js: Twoje pierwsze testy integracyjne
-
-### 11) :bulb: Bezpieczeństwo w JavaScript - czyli jak podpisać swój kod źródłowy?
-
-### 12) :bulb: Wskazówki dla prelegentów jak robić prelekcje na meetupy
+### 12) :bulb: Wskazówki dla prelegentów jak robić prelekcje
 
 ---
 

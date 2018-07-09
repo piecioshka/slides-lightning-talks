@@ -8,7 +8,7 @@ background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 ---
 
 class: middle, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-2/IMG_3088.jpg)
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-2/IMG_3502.jpg)
 
 .size80[
 # 5 zasad<span class="slim"><br/>zakończenia<br/>współpracy</span>
