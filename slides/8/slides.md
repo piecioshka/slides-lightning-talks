@@ -2,7 +2,7 @@ class: middle, slide-invert-colors
 background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 
 .size60[
-# WarsawJS Meetup #49 <br/><span class="slim">Lightning Talks</span>
+# Angular Warsaw #20<br/><span class="slim">Lightning Talks</span>
 ]
 
 ---

@@ -1,7 +1,7 @@
 class: middle, center, slide-invert-colors, slide-fullscreen-content
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-1/IMG_6627.jpg)
 
-# Angular Warsaw Meetup #16: Lightning Talks
+# Angular Warsaw #16: Lightning Talks
 
 ---
 
