@@ -47,7 +47,7 @@ class: middle
 # Czego potrzebujemy aby uruchomić testy?
 
 .size40[
-* `assertion` - narzędzia, które sprawdzi stan
+* `assert function` - narzędzia, które sprawdzi stan
 * `test runner` - narzędzia, które je uruchomi
 ]
 
@@ -82,11 +82,11 @@ class: middle
 # Asercje
 
 .size40[
-* Native `console.assert`
-* Native `assert`
-* Library: [should](http://npmjs.com/package/should)
-* Library: [expect.js](http://npmjs.com/package/expect.js)
-* Library: [better-assert](https://www.npmjs.com/package/better-assert)
+* `console.assert`
+* `assert`
+* [should](http://npmjs.com/package/should)
+* [expect.js](http://npmjs.com/package/expect.js)
+* [better-assert](https://www.npmjs.com/package/better-assert)
 ]
 
 ---
@@ -94,7 +94,7 @@ class: middle
 class: center, middle
 
 .size130[
-# DEMO
+# DEMO 🎊
 ]
 
 ---
