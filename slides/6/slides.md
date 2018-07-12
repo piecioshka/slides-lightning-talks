@@ -46,9 +46,9 @@ class: middle
 
 # Czego potrzebujemy aby uruchomić testy?
 
-.size40[
-* `assert function` - narzędzia, które sprawdzi stan
-* `test runner` - narzędzia, które je uruchomi
+.size30[
+* `assert function` - narzędzie, które sprawdzi stan
+* `test runner` - narzędzie, które je uruchomi
 ]
 
 ---
@@ -151,4 +151,3 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 ## [<mark>Testy jednostkowe</mark>](https://www.facebook.com/events/202711777098053/)
 ## [WarsawJS Workshop #22:<br/>Testowanie kodu 1/3](https://www.facebook.com/events/202711777098053/)
-
