@@ -119,6 +119,8 @@ vim test/spec.js
 
 ---
 
+class: no-display-twitter-handle
+
 .size50[
 # Plik: `test/spec.js`
 ]

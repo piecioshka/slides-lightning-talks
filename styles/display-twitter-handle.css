@@ -10,3 +10,7 @@
     font-weight: normal;
     opacity: 0.5;
 }
+
+.remark-slide-content.no-display-twitter-handle:after {
+    display: none;
+}
