@@ -1,7 +1,9 @@
-class: middle, center, slide-invert-colors
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-1/IMG_6627.jpg)
+class: middle, slide-invert-colors
+background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 
-# WarsawJS Meetup #39:<br/><mark>Lightning Talks</mark>
+.size60[
+# WarsawJS Meetup #39<br/><span class="slim">Lightning Talks</span>
+]
 
 ---
 
