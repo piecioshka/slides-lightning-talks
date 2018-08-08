@@ -73,7 +73,7 @@ class: middle
 ![](./images/logo-mocha.png)
 
 ## Bazuję na projekcie:
-## [github.com/piecioshka/test-mocha](https://github.com/piecioshka/test-mocha)
+## <https://github.com/piecioshka/test-mocha>
 
 ---
 
@@ -151,5 +151,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 # Dziękuję!
 
-## [<mark>Testy jednostkowe</mark>](https://www.facebook.com/events/202711777098053/)
-## [WarsawJS Workshop #22:<br/>Testowanie kodu 1/3](https://www.facebook.com/events/202711777098053/)
+## [<mark>Testy jednostkowe</mark>][szkolenie]
+## [WarsawJS Workshop #22:<br/>Testowanie kodu 1/3][szkolenie]
+
+[szkolenie]: https://www.facebook.com/events/202711777098053/
