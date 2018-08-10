@@ -27,7 +27,7 @@
 * <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/3-error-handling-server-error.html>
 * <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/4-malformed-response.html>
 
-### 4) :white_check_mark: Największy projekt w moim życiu... IPLA.tv 🇵🇱
+### 4) :white_check_mark: Największy projekt w moim życiu... IPLA.tv
 
 > `WarsawJS Meetup #43`: <https://www.meetup.com/WarsawJS/events/247244895/>
 
@@ -45,7 +45,7 @@
 
 * <https://piecioshka.github.io/slides-lightning-talks/slides/6/>
 
-### 7) :information_source: Nightwatch.js: Twoje pierwsze testy end-to-end
+### 7) :white_check_mark: Nightwatch.js: Twoje pierwsze testy end-to-end
 
 > `WarsawJS Meetup #48`: <https://www.meetup.com/WarsawJS/events/247245091/>
 
