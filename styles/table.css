@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------------------------
+
+.table-borderless.table-striped.table-hover.table-small[
+
+H1 | H2 | H3
+:--- | :---: | ---:
+1 | 2 | 3
+4 | 5 | 6
+
+]
+
+----------------------------------------------------------------------------- */
+
+.remark-slide-content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.remark-slide-content table th {
+    background: #F0F0F0;
+    color: #000;
+    font-weight: normal;
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+.remark-slide-content table td {
+    border: 1px solid #ccc;
+    padding: 10px 8px;
+}
+
+.remark-slide-content .table-borderless table th {
+    border-top: 0;
+}
+
+.remark-slide-content .table-borderless table tr:last-child td {
+    border-bottom: 0;
+}
+
+.remark-slide-content .table-borderless table tr th:first-child,
+.remark-slide-content .table-borderless table tr td:first-child {
+    border-left: 0;
+}
+
+.remark-slide-content .table-borderless table tr th:last-child,
+.remark-slide-content .table-borderless table tr td:last-child {
+    border-right: 0;
+}
+
+/* --- */
+
+.remark-slide-content .table-striped table tr:nth-child(2n) {
+    background: #F0F0F0;
+}
+
+/* --- */
+
+.remark-slide-content .table-hover table tr:hover {
+    background: #F0F0F0;
+    color: #000;
+}
+
+/* --- */
+
+.remark-slide-content .table-small table th {
+    padding: 3px;
+}
+
+.remark-slide-content .table-small table td {
+    padding: 3px;
+}

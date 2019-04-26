@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+kbd {
+    /* Skopiowane z GitHub.com */
+    display: inline-block;
+    padding: 3px 5px;
+    color: #444d56;
+    vertical-align: middle;
+    background-color: #fafbfc;
+    border: solid 1px #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 5px;
+}

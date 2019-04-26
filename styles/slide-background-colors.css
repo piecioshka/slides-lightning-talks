@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.remark-slide {
+    --black-shadow: 0px 1px 200px 10px inset rgba(0, 0, 0, 0.2);
+}
+
+.remark-slide-content {
+    box-shadow: var(--black-shadow);
+}
+
+.remark-slide-content.no-shadow {
+    box-shadow: none !important;
+}
+
+.invert-colors,
+.remark-slide-content.slide-invert-colors {
+    background: #000;
+    color: #fff;
+}
+
+.background-white,
+.remark-slide-content.slide-background-white {
+    background-color: #fff;
+    color: black;
+}
+
+.background-azure,
+.remark-slide-content.slide-background-azure {
+    background-color: #a7e1fd;
+    color: black;
+}
+
+.background-azure a,
+.remark-slide-content.slide-background-azure a {
+    color: #38718d;
+}
+
+.background-blue,
+.remark-slide-content.slide-background-blue {
+    background-color: #00b0e1;
+    color: white;
+}
+
+.background-blue a,
+.remark-slide-content.slide-background-blue a {
+    color: #206d7e;
+}
+
+.background-purple,
+.remark-slide-content.slide-background-purple {
+    background-color: #ab44b5;
+    color: white;
+}
+
+.background-purple a,
+.remark-slide-content.slide-background-purple a {
+    color: #6c2b72;
+}
+
+.background-red,
+.remark-slide-content.slide-background-red {
+    background-color: #ea4457;
+    color: white;
+}
+
+.background-red a,
+.remark-slide-content.slide-background-red a {
+    color: #80232e;
+}
+
+.background-brown,
+.remark-slide-content.slide-background-brown {
+    background-color: #583907;
+    color: white;
+}
+
+.background-brown a,
+.remark-slide-content.slide-background-brown a {
+    color: #c47e0d;
+}
+
+.background-green,
+.remark-slide-content.slide-background-green {
+    background-color: #83a956;
+    color: white;
+}
+
+.background-green a,
+.remark-slide-content.slide-background-green a {
+    color: #364622;
+}

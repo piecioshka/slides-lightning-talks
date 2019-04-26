@@ -7,8 +7,21 @@
 .size10 h4,
 .size10 h5,
 .size10 h6,
+.size10 blockquote,
 .size10 .remark-code {
     font-size: 10px !important;
+}
+
+.size15,
+.size15 h1,
+.size15 h2,
+.size15 h3,
+.size15 h4,
+.size15 h5,
+.size15 h6,
+.size15 blockquote,
+.size15 .remark-code {
+    font-size: 15px !important;
 }
 
 .size20,
@@ -18,8 +31,21 @@
 .size20 h4,
 .size20 h5,
 .size20 h6,
+.size20 blockquote,
 .size20 .remark-code {
     font-size: 20px !important;
+}
+
+.size25,
+.size25 h1,
+.size25 h2,
+.size25 h3,
+.size25 h4,
+.size25 h5,
+.size25 h6,
+.size25 blockquote,
+.size25 .remark-code {
+    font-size: 25px !important;
 }
 
 .size30,
@@ -29,6 +55,7 @@
 .size30 h4,
 .size30 h5,
 .size30 h6,
+.size30 blockquote,
 .size30 .remark-code {
     font-size: 30px !important;
 }
@@ -40,6 +67,7 @@
 .size40 h4,
 .size40 h5,
 .size40 h6,
+.size40 blockquote,
 .size40 .remark-code {
     font-size: 40px !important;
 }
@@ -51,6 +79,7 @@
 .size50 h4,
 .size50 h5,
 .size50 h6,
+.size50 blockquote,
 .size50 .remark-code {
     font-size: 50px !important;
 }
@@ -62,6 +91,7 @@
 .size60 h4,
 .size60 h5,
 .size60 h6,
+.size60 blockquote,
 .size60 .remark-code {
     font-size: 60px !important;
 }
@@ -73,6 +103,7 @@
 .size70 h4,
 .size70 h5,
 .size70 h6,
+.size70 blockquote,
 .size70 .remark-code {
     font-size: 70px !important;
 }
@@ -84,6 +115,7 @@
 .size80 h4,
 .size80 h5,
 .size80 h6,
+.size80 blockquote,
 .size80 .remark-code {
     font-size: 80px !important;
 }
@@ -95,6 +127,7 @@
 .size90 h4,
 .size90 h5,
 .size90 h6,
+.size90 blockquote,
 .size90 .remark-code {
     font-size: 90px !important;
 }
@@ -106,6 +139,7 @@
 .size100 h4,
 .size100 h5,
 .size100 h6,
+.size100 blockquote,
 .size100 .remark-code {
     font-size: 100px !important;
 }
@@ -117,6 +151,7 @@
 .size110 h4,
 .size110 h5,
 .size110 h6,
+.size110 blockquote,
 .size110 .remark-code {
     font-size: 110px !important;
 }
@@ -128,6 +163,7 @@
 .size120 h4,
 .size120 h5,
 .size120 h6,
+.size120 blockquote,
 .size120 .remark-code {
     font-size: 120px !important;
 }
@@ -139,6 +175,7 @@
 .size130 h4,
 .size130 h5,
 .size130 h6,
+.size130 blockquote,
 .size130 .remark-code {
     font-size: 130px !important;
 }

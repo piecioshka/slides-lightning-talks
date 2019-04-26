@@ -12,5 +12,5 @@
 }
 
 .remark-slide-content.no-display-twitter-handle:after {
-    display: none;
+    display: none !important;
 }

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------------------------
+
+.box[
+
+![](./images/picture.jpeg)
+
+]
+
+----------------------------------------------------------------------------- */
+
+.box {
+    padding: 0;
+    margin: 0 20px;
+}
+
+.box > p {
+    margin: 0;
+}
+
+.box > p img {
+    float: left;
+}
+
+.box.center {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.box.block {
+    display: block;
+}

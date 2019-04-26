@@ -31,7 +31,7 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-    color: gray;
+    color: #808080;
 }
 
 a {
@@ -52,6 +52,10 @@ iframe {
 }
 
 code {
+    /* From gist.github.com */
+    /* background: #f6f8fa; */
+    /* color: #24292e; */
+
     background: #616161;
     color: #fff;
     padding: 2px 15px;
@@ -62,14 +66,46 @@ code {
 em {
     display: inline-block;
     padding: 0 15px;
+    color: #fff;
     background: #2380e6;
     font-style: normal;
+}
+
+em a {
+    color: #fff;
 }
 
 mark {
     display: inline-block;
     padding: 0 15px;
-    background: #f0db4f;
+    background: #f0db4f; /* JS Yellow */
+}
+
+samp {
+    color: #fff;
+    display: inline-block;
+    padding: 0 15px;
+    background: #f7302f; /* WarsawJS Red */
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+var {
+    color: #fff;
+    display: inline-block;
+    padding: 0 15px;
+    background: #12aa12;
+    font-style: normal;
+}
+
+ins {
+    color: gray;
+    text-decoration: none;
+}
+
+ins::selection {
+    background: transparent;
+    color: #fff;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -81,4 +117,40 @@ mark {
 
 .slim {
     font-weight: 100;
+}
+
+.remark-slide-content .text-left {
+    text-align: left;
+}
+
+.remark-slide-content .text-center {
+    text-align: center;
+}
+
+.remark-slide-content .text-right {
+    text-align: right;
+}
+
+.list-unstyled ol,
+.list-unstyled ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.half-width {
+    width: 50%;
 }
