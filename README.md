@@ -51,11 +51,11 @@
 
 * <https://piecioshka.github.io/slides-lightning-talks/slides/7/>
 
-### 8) :information_source: Jest: Twoje pierwsze testy integracyjne
+### 8) :white_check_mark: Solidarity
 
-> `TODO`: <...>
+> `WarsawJS Meetup #56`: <https://www.meetup.com/WarsawJS/events/259419544/>
 
-* <https://piecioshka.github.io/slides-lightning-talks/slides/8/>
+* Slajdów nie było
 
 ### 9) :information_source: Zostać Mistrzem Konsoli DevTools
 
@@ -72,10 +72,6 @@
 
 ---
 
-## Slides engine: [remarkjs](http://remarkjs.com)
-
-* Download latest version: <https://remarkjs.com/downloads/remark-latest.min.js>
-
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2017-2018
+[The MIT License](http://piecioshka.mit-license.org) @ 2017-2019
