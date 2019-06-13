@@ -154,3 +154,11 @@ ins::selection {
 .half-width {
     width: 50%;
 }
+
+.middle-images img {
+  vertical-align: middle;
+}
+
+.line-height-2x li {
+    line-height: 2em;
+}

@@ -15,7 +15,9 @@
 }
 
 .remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-invert-colors:after,
-.remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-brown:after {
+.remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-brown:after,
+.remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-blue:after,
+.remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-red:after {
     background-image: url('../images/my-logo/logo-piecioshka-white-text.svg');
 }
 
