@@ -4,30 +4,30 @@
     --black-shadow: 0px 1px 200px 10px inset rgba(0, 0, 0, 0.2);
 }
 
-.remark-slide-content {
-    box-shadow: var(--black-shadow);
-}
-
 .remark-slide-content.no-shadow {
     box-shadow: none !important;
 }
 
+.remark-slide-content.with-shadow {
+    box-shadow: var(--black-shadow);
+}
+
 .invert-colors,
 .remark-slide-content.slide-invert-colors {
-    background: #000;
-    color: #fff;
+    background: #000000;
+    color: #ffffff;
 }
 
 .background-white,
 .remark-slide-content.slide-background-white {
-    background-color: #fff;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .background-azure,
 .remark-slide-content.slide-background-azure {
     background-color: #a7e1fd;
-    color: black;
+    color: #000000;
 }
 
 .background-azure a,
@@ -38,7 +38,7 @@
 .background-blue,
 .remark-slide-content.slide-background-blue {
     background-color: #0d4b8e;
-    color: white;
+    color: #ffffff;
 }
 
 .background-blue a,
@@ -48,19 +48,19 @@
 
 .background-purple,
 .remark-slide-content.slide-background-purple {
-    background-color: #ab44b5;
-    color: white;
+    background-color: #6c2b72;
+    color: #ffffff;
 }
 
 .background-purple a,
 .remark-slide-content.slide-background-purple a {
-    color: #6c2b72;
+    color: #de50eb;
 }
 
 .background-red,
 .remark-slide-content.slide-background-red {
     background-color: #a51526;
-    color: white;
+    color: #ffffff;
 }
 
 .background-red a,
@@ -71,7 +71,7 @@
 .background-brown,
 .remark-slide-content.slide-background-brown {
     background-color: #583907;
-    color: white;
+    color: #ffffff;
 }
 
 .background-brown a,
@@ -81,11 +81,11 @@
 
 .background-green,
 .remark-slide-content.slide-background-green {
-    background-color: #83a956;
-    color: white;
+    background-color: #364622;
+    color: #ffffff;
 }
 
 .background-green a,
 .remark-slide-content.slide-background-green a {
-    color: #364622;
+    color: #83a956;
 }

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.slide-grid .grid-board {
+    display: grid;
+}
+
+.slide-grid .grid-board p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.slide-grid-2-columns .grid-board {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.slide-grid-3-columns .grid-board {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+}
+
+.slide-grid-4-columns .grid-board {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+}
+
+.slide-grid-5-columns .grid-board {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+}

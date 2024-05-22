@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+:root {
+  --warsawjs-black: #000000;
+  --warsawjs-red: #f7302f;
+  --warsawjs-yellow: #f0db4f;
+  --warsawjs-white: #ffffff;
+}
+
+.warsawjs-text-color-black { color: var(--warsawjs-black); }
+.warsawjs-bg-color-black { background-color: var(--warsawjs-black); }
+
+.warsawjs-text-color-red { color: var(--warsawjs-red); }
+.warsawjs-bg-color-red { background-color: var(--warsawjs-red); }
+
+.warsawjs-text-color-yellow { color: var(--warsawjs-yellow); }
+.warsawjs-bg-color-yellow { background-color: var(--warsawjs-yellow); }
+
+.warsawjs-text-color-white { color: var(--warsawjs-white); }
+.warsawjs-bg-color-white { background-color: var(--warsawjs-white); }

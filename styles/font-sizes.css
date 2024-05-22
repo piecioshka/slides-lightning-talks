@@ -1,181 +1,313 @@
 @charset "utf-8";
 
-.size10,
-.size10 h1,
-.size10 h2,
-.size10 h3,
-.size10 h4,
-.size10 h5,
-.size10 h6,
-.size10 blockquote,
-.size10 .remark-code {
+.size-10,
+.size-10 h1,
+.size-10 h2,
+.size-10 h3,
+.size-10 h4,
+.size-10 h5,
+.size-10 h6,
+.size-10 blockquote,
+.size-10 .remark-code {
     font-size: 10px !important;
 }
 
-.size15,
-.size15 h1,
-.size15 h2,
-.size15 h3,
-.size15 h4,
-.size15 h5,
-.size15 h6,
-.size15 blockquote,
-.size15 .remark-code {
+.size-13,
+.size-13 h1,
+.size-13 h2,
+.size-13 h3,
+.size-13 h4,
+.size-13 h5,
+.size-13 h6,
+.size-13 blockquote,
+.size-13 .remark-code {
+    font-size: 13px !important;
+}
+
+.size-15,
+.size-15 h1,
+.size-15 h2,
+.size-15 h3,
+.size-15 h4,
+.size-15 h5,
+.size-15 h6,
+.size-15 blockquote,
+.size-15 .remark-code {
     font-size: 15px !important;
 }
 
-.size20,
-.size20 h1,
-.size20 h2,
-.size20 h3,
-.size20 h4,
-.size20 h5,
-.size20 h6,
-.size20 blockquote,
-.size20 .remark-code {
+.size-20,
+.size-20 h1,
+.size-20 h2,
+.size-20 h3,
+.size-20 h4,
+.size-20 h5,
+.size-20 h6,
+.size-20 blockquote,
+.size-20 .remark-code {
     font-size: 20px !important;
 }
 
-.size25,
-.size25 h1,
-.size25 h2,
-.size25 h3,
-.size25 h4,
-.size25 h5,
-.size25 h6,
-.size25 blockquote,
-.size25 .remark-code {
+.size-25,
+.size-25 h1,
+.size-25 h2,
+.size-25 h3,
+.size-25 h4,
+.size-25 h5,
+.size-25 h6,
+.size-25 blockquote,
+.size-25 .remark-code {
     font-size: 25px !important;
 }
 
-.size30,
-.size30 h1,
-.size30 h2,
-.size30 h3,
-.size30 h4,
-.size30 h5,
-.size30 h6,
-.size30 blockquote,
-.size30 .remark-code {
+.size-30,
+.size-30 h1,
+.size-30 h2,
+.size-30 h3,
+.size-30 h4,
+.size-30 h5,
+.size-30 h6,
+.size-30 blockquote,
+.size-30 .remark-code {
     font-size: 30px !important;
 }
 
-.size40,
-.size40 h1,
-.size40 h2,
-.size40 h3,
-.size40 h4,
-.size40 h5,
-.size40 h6,
-.size40 blockquote,
-.size40 .remark-code {
+.size-35,
+.size-35 h1,
+.size-35 h2,
+.size-35 h3,
+.size-35 h4,
+.size-35 h5,
+.size-35 h6,
+.size-35 blockquote,
+.size-35 .remark-code {
+    font-size: 35px !important;
+}
+
+.size-40,
+.size-40 h1,
+.size-40 h2,
+.size-40 h3,
+.size-40 h4,
+.size-40 h5,
+.size-40 h6,
+.size-40 blockquote,
+.size-40 .remark-code {
     font-size: 40px !important;
 }
 
-.size50,
-.size50 h1,
-.size50 h2,
-.size50 h3,
-.size50 h4,
-.size50 h5,
-.size50 h6,
-.size50 blockquote,
-.size50 .remark-code {
+.size-45,
+.size-45 h1,
+.size-45 h2,
+.size-45 h3,
+.size-45 h4,
+.size-45 h5,
+.size-45 h6,
+.size-45 blockquote,
+.size-45 .remark-code {
+    font-size: 45px !important;
+}
+
+.size-50,
+.size-50 h1,
+.size-50 h2,
+.size-50 h3,
+.size-50 h4,
+.size-50 h5,
+.size-50 h6,
+.size-50 blockquote,
+.size-50 .remark-code {
     font-size: 50px !important;
 }
 
-.size60,
-.size60 h1,
-.size60 h2,
-.size60 h3,
-.size60 h4,
-.size60 h5,
-.size60 h6,
-.size60 blockquote,
-.size60 .remark-code {
+.size-55,
+.size-55 h1,
+.size-55 h2,
+.size-55 h3,
+.size-55 h4,
+.size-55 h5,
+.size-55 h6,
+.size-55 blockquote,
+.size-55 .remark-code {
+    font-size: 55px !important;
+}
+
+.size-60,
+.size-60 h1,
+.size-60 h2,
+.size-60 h3,
+.size-60 h4,
+.size-60 h5,
+.size-60 h6,
+.size-60 blockquote,
+.size-60 .remark-code {
     font-size: 60px !important;
 }
 
-.size70,
-.size70 h1,
-.size70 h2,
-.size70 h3,
-.size70 h4,
-.size70 h5,
-.size70 h6,
-.size70 blockquote,
-.size70 .remark-code {
+.size-65,
+.size-65 h1,
+.size-65 h2,
+.size-65 h3,
+.size-65 h4,
+.size-65 h5,
+.size-65 h6,
+.size-65 blockquote,
+.size-65 .remark-code {
+    font-size: 65px !important;
+}
+
+.size-70,
+.size-70 h1,
+.size-70 h2,
+.size-70 h3,
+.size-70 h4,
+.size-70 h5,
+.size-70 h6,
+.size-70 blockquote,
+.size-70 .remark-code {
     font-size: 70px !important;
 }
 
-.size80,
-.size80 h1,
-.size80 h2,
-.size80 h3,
-.size80 h4,
-.size80 h5,
-.size80 h6,
-.size80 blockquote,
-.size80 .remark-code {
+.size-75,
+.size-75 h1,
+.size-75 h2,
+.size-75 h3,
+.size-75 h4,
+.size-75 h5,
+.size-75 h6,
+.size-75 blockquote,
+.size-75 .remark-code {
+    font-size: 75px !important;
+}
+
+.size-80,
+.size-80 h1,
+.size-80 h2,
+.size-80 h3,
+.size-80 h4,
+.size-80 h5,
+.size-80 h6,
+.size-80 blockquote,
+.size-80 .remark-code {
     font-size: 80px !important;
 }
 
-.size90,
-.size90 h1,
-.size90 h2,
-.size90 h3,
-.size90 h4,
-.size90 h5,
-.size90 h6,
-.size90 blockquote,
-.size90 .remark-code {
+.size-85,
+.size-85 h1,
+.size-85 h2,
+.size-85 h3,
+.size-85 h4,
+.size-85 h5,
+.size-85 h6,
+.size-85 blockquote,
+.size-85 .remark-code {
+    font-size: 85px !important;
+}
+
+.size-90,
+.size-90 h1,
+.size-90 h2,
+.size-90 h3,
+.size-90 h4,
+.size-90 h5,
+.size-90 h6,
+.size-90 blockquote,
+.size-90 .remark-code {
     font-size: 90px !important;
 }
 
-.size100,
-.size100 h1,
-.size100 h2,
-.size100 h3,
-.size100 h4,
-.size100 h5,
-.size100 h6,
-.size100 blockquote,
-.size100 .remark-code {
+.size-95,
+.size-95 h1,
+.size-95 h2,
+.size-95 h3,
+.size-95 h4,
+.size-95 h5,
+.size-95 h6,
+.size-95 blockquote,
+.size-95 .remark-code {
+    font-size: 95px !important;
+}
+
+.size-100,
+.size-100 h1,
+.size-100 h2,
+.size-100 h3,
+.size-100 h4,
+.size-100 h5,
+.size-100 h6,
+.size-100 blockquote,
+.size-100 .remark-code {
     font-size: 100px !important;
 }
 
-.size110,
-.size110 h1,
-.size110 h2,
-.size110 h3,
-.size110 h4,
-.size110 h5,
-.size110 h6,
-.size110 blockquote,
-.size110 .remark-code {
+.size-105,
+.size-105 h1,
+.size-105 h2,
+.size-105 h3,
+.size-105 h4,
+.size-105 h5,
+.size-105 h6,
+.size-105 blockquote,
+.size-105 .remark-code {
+    font-size: 105px !important;
+}
+
+.size-110,
+.size-110 h1,
+.size-110 h2,
+.size-110 h3,
+.size-110 h4,
+.size-110 h5,
+.size-110 h6,
+.size-110 blockquote,
+.size-110 .remark-code {
     font-size: 110px !important;
 }
 
-.size120,
-.size120 h1,
-.size120 h2,
-.size120 h3,
-.size120 h4,
-.size120 h5,
-.size120 h6,
-.size120 blockquote,
-.size120 .remark-code {
+.size-115,
+.size-115 h1,
+.size-115 h2,
+.size-115 h3,
+.size-115 h4,
+.size-115 h5,
+.size-115 h6,
+.size-115 blockquote,
+.size-115 .remark-code {
+    font-size: 115px !important;
+}
+
+.size-120,
+.size-120 h1,
+.size-120 h2,
+.size-120 h3,
+.size-120 h4,
+.size-120 h5,
+.size-120 h6,
+.size-120 blockquote,
+.size-120 .remark-code {
     font-size: 120px !important;
 }
 
-.size130,
-.size130 h1,
-.size130 h2,
-.size130 h3,
-.size130 h4,
-.size130 h5,
-.size130 h6,
-.size130 blockquote,
-.size130 .remark-code {
+.size-125,
+.size-125 h1,
+.size-125 h2,
+.size-125 h3,
+.size-125 h4,
+.size-125 h5,
+.size-125 h6,
+.size-125 blockquote,
+.size-125 .remark-code {
+    font-size: 125px !important;
+}
+
+.size-130,
+.size-130 h1,
+.size-130 h2,
+.size-130 h3,
+.size-130 h4,
+.size-130 h5,
+.size-130 h6,
+.size-130 blockquote,
+.size-130 .remark-code {
     font-size: 130px !important;
 }

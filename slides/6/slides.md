@@ -1,7 +1,7 @@
 class: middle, slide-invert-colors
 background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 
-.size60[
+.size-60[
 # WarsawJS Meetup #47<br/><span class="slim">Lightning Talks</span>
 ]
 
@@ -12,7 +12,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 ![](./images/logo-mocha.png)
 
-.size80[
+.size-80[
 # <span class="slim">Mocha</span>: Twoje pierwsze<br/>testy jednostkowe
 ]
 
@@ -24,7 +24,7 @@ class: middle
 
 ---
 
-.size40[
+.size-40[
 ```js
 const cart = [];
 
@@ -46,7 +46,7 @@ class: middle
 
 # Czego potrzebujemy aby uruchomić testy?
 
-.size30[
+.size-30[
 * `assert function` - narzędzie, które sprawdzi stan
 * `test runner` - narzędzie, które je uruchomi
 ]
@@ -81,7 +81,7 @@ class: middle
 
 # Asercje
 
-.size40[
+.size-40[
 * `console.assert`
 * `assert`
 * [should](http://npmjs.com/package/should)
@@ -93,17 +93,17 @@ class: middle
 
 class: center, middle
 
-.size130[
+.size-130[
 # DEMO 🎊
 ]
 
 ---
 
-.size50[
+.size-50[
 # Stworzenie nowego projektu
 ]
 
-.size30[
+.size-30[
 ```bash
 cd /tmp
 mkdir mocha-playground
@@ -121,11 +121,11 @@ vim test/spec.js
 
 class: no-display-twitter-handle
 
-.size50[
+.size-50[
 # Plik: `test/spec.js`
 ]
 
-.size30[
+.size-30[
 ```js
 const assert = require('assert');
 

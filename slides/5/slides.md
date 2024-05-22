@@ -1,7 +1,7 @@
 class: middle, slide-invert-colors
 background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 
-.size60[
+.size-60[
 # WarsawJS Meetup #45<br/><span class="slim">Lightning Talks</span>
 ]
 
@@ -10,7 +10,7 @@ background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 class: middle, slide-invert-colors
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-2/IMG_3502.jpg)
 
-.size80[
+.size-80[
 # 5 zasad<span class="slim"><br/>zakończenia<br/>współpracy</span>
 ]
 
@@ -77,7 +77,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 ### 5 zasad dobrego zakończenia współpracy
 
-.size50[
+.size-50[
 1. Nie pal mostów
 2. Udokumentuj procesy
 3. Nie narzekaj na pracodawcę

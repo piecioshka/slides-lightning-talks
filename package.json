@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "slides-lightning-talks",
-    "description": "TODO",
+    "description": "Slides for my lightning talks sessions",
     "version": "0.0.0",
     "license": "MIT",
     "author": {

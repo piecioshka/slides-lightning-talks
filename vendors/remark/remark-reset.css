@@ -1,0 +1,6 @@
+.remark-slide-content .float-left,
+.remark-slide-content .center,
+.remark-slide-content .float-right {
+    display: inherit;
+    text-align: inherit;
+}

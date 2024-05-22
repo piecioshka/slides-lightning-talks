@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Fira Sans', sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
@@ -21,22 +17,12 @@ h2 {
 }
 
 h3 {
-    border-bottom: 1px solid #ccc;
     font-size: 45px !important;
 }
 
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small {
-    color: #808080;
-}
-
-a {
-    color: #2380e6;
-    text-decoration: none;
+hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
 }
 
 a:hover {
@@ -51,97 +37,73 @@ iframe {
     border: 0;
 }
 
-code {
-    /* From gist.github.com */
-    /* background: #f6f8fa; */
-    /* color: #24292e; */
-
-    background: #616161;
-    color: #fff;
-    padding: 2px 15px;
-    margin: 3px 0;
-    display: inline-block;
-}
-
-em {
+em, mark, samp, var, del {
     display: inline-block;
     padding: 0 15px;
-    color: #fff;
-    background: #2380e6;
     font-style: normal;
-}
-
-em a {
-    color: #fff;
-}
-
-mark {
-    display: inline-block;
-    padding: 0 15px;
-    background: #f0db4f; /* JS Yellow */
-}
-
-samp {
-    color: #fff;
-    display: inline-block;
-    padding: 0 15px;
-    background: #f7302f; /* WarsawJS Red */
     font-weight: inherit;
     font-family: inherit;
-}
-
-var {
-    color: #fff;
-    display: inline-block;
-    padding: 0 15px;
-    background: #12aa12;
-    font-style: normal;
-}
-
-ins {
-    color: gray;
     text-decoration: none;
 }
 
-ins::selection {
-    background: transparent;
-    color: #fff;
+code {
+    display: inline-block;
+    padding: 2px 15px;
+    margin: 3px 0;
+}
+
+kbd {
+    /* Source: GitHub.com */
+    display: inline-block;
+    padding: 3px 5px;
+    vertical-align: middle;
+    border-radius: 5px;
 }
 
 /* -------------------------------------------------------------------------- */
 
 .remark-slide-content {
+    --font-size: 26px;
     margin-top: 0;
-    font-size: 26px;
+    font-size: var(--font-size);
+}
+
+.remark-slide-content .remark-slide-number {
+    font-size: var(--font-size) !important;
+    font-weight: normal !important;
+    opacity: 0.2;
+}
+
+.no-display-slide-number .remark-slide-number {
+    display: none;
 }
 
 .slim {
     font-weight: 100;
 }
 
-.remark-slide-content .text-left {
+.bold,
+.bold * {
+    font-weight: bold !important;
+}
+
+.text-left {
     text-align: left;
 }
 
-.remark-slide-content .text-center {
+.text-center {
     text-align: center;
 }
 
-.remark-slide-content .text-right {
+.text-right {
     text-align: right;
 }
 
-.list-unstyled ol,
-.list-unstyled ul {
-    padding-left: 0;
-    list-style: none;
-}
-
-.left {
+.float-left {
     float: left;
 }
 
-.right {
+.float-right {
     float: right;
 }
 
@@ -151,8 +113,8 @@ ins::selection {
     overflow: hidden;
 }
 
-.half-width {
-    width: 50%;
+.full-height {
+    height: 100%;
 }
 
 .middle-images img {

@@ -1,7 +1,7 @@
 class: middle, slide-invert-colors
 background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 
-.size60[
+.size-60[
 # WarsawJS Meetup #43<br/><span class="slim">Lightning Talks</span>
 ]
 
@@ -110,6 +110,6 @@ Deps size 📦 `504 MB`
 class: middle, slide-invert-colors
 background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 
-.size60[
+.size-60[
 # Dziękuję ❤️
 ]

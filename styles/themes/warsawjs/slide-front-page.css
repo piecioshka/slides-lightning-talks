@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.remark-slide-content.slide-front-page {
+    padding: 0 40px;
+}
+
+.remark-slide-content.slide-front-page .talk-card {
+    display: flex;
+}
+
+.remark-slide-content.slide-front-page .logo {
+    width: 310px;
+    margin: 0 41px 0 11px;
+}
+
+.remark-slide-content.slide-front-page .details {
+    float: left;
+    width: calc(100% - 310px);
+    border-left: 3px solid var(--warsawjs-red);
+    padding: 0 0 10px 74px;
+}
+
+.remark-slide-content.slide-front-page .details .speaker-avatar {
+    width: 253px;
+    height: 253px;
+    margin: 0 0 16px 0;
+}
+
+.remark-slide-content.slide-front-page .details .speaker-name {
+    color: #000000;
+    font-size: 63px;
+    padding: 0;
+    margin: 0 0 8px 0;
+}
+
+.remark-slide-content.slide-front-page .details .talk-title {
+    color: var(--warsawjs-red);
+    font-size: 30px !important;
+    padding: 0;
+    margin: 0;
+    height: 88px;
+}
+
+.remark-slide-content.slide-front-page .details .talk-perform {
+    color: #999999;
+    font-size: 30px;
+    padding: 0;
+    margin: 0 0 18px 0;
+}
+
+.remark-slide-content.slide-front-page .details .speaker-contact {
+    color: #2380e6;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}

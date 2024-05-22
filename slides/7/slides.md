@@ -1,7 +1,7 @@
 class: middle, slide-invert-colors
 background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 
-.size60[
+.size-60[
 # WarsawJS Meetup #48<br/><span class="slim">Lightning Talks</span>
 ]
 
@@ -12,7 +12,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 ![](./images/logo-nightwatch.png)
 
-.size70[
+.size-70[
 # <span class="slim">Nightwatch.js</span>: Twoje pierwsze<br/>testy end-to-end
 ]
 
@@ -24,7 +24,7 @@ class: middle
 
 ---
 
-.size30[
+.size-30[
 ```js
 const TARGET_PAGE_URL = 'https://piecioshka.pl/blog/';
 const PAGE_LOAD_DELAY = 3000;
@@ -44,7 +44,7 @@ module.exports = {
 
 class: middle
 
-.size70[
+.size-70[
 # Czego potrzebujemy aby uruchomić <mark>testy end-to-end</mark>?
 ]
 
@@ -84,7 +84,7 @@ class: middle
 
 class: center, middle
 
-.size130[
+.size-130[
 # DEMO 🎊
 ]
 

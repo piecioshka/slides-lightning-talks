@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+:root {
+    --column-rule-style: 1px solid #ccc;
+}
+
+.slide-columns-2 ol,
+.slide-columns-2 ul {
+    column-count: 2;
+    column-gap: 120px;
+    column-rule: var(--column-rule-style);
+}
+
+.slide-columns-3 ol,
+.slide-columns-3 ul {
+    column-count: 3;
+    column-gap: 90px;
+    column-rule: var(--column-rule-style);
+}
+
+.slide-columns-4 ol,
+.slide-columns-4 ul {
+    column-count: 4;
+    column-gap: 90px;
+    column-rule: var(--column-rule-style);
+}
+
+.slide-columns-5 ol,
+.slide-columns-5 ul {
+    column-count: 5;
+    column-gap: 80px;
+    column-rule: var(--column-rule-style);
+}

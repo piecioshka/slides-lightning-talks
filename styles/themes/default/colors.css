@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+:root {
+    --default-red: #D74647;
+    --default-blue: #5EC9DB;
+    --default-yellow: #F4D681;
+    --default-orange: #F26940;
+    --default-bronze: #40130D;
+    --default-white: #ffffff;
+    --default-black: #242424;
+    --default-gray: #808080;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+    color: var(--default-gray);
+}
+
+h3 {
+    border-bottom: 1px solid #ccc;
+}
+
+a {
+    color: var(--default-blue);
+    text-decoration: none;
+}
+
+em {
+    color: var(--default-white);
+    background: var(--default-blue);
+}
+
+em a {
+    color: var(--default-white);
+}
+
+mark {
+    color: var(--default-black);
+    background: var(--default-yellow);
+}
+
+del {
+    color: var(--default-white);
+    background: var(--default-red);
+}
+
+samp {
+    color: var(--default-white);
+    background: var(--default-orange);
+}
+
+var {
+    color: var(--default-white);
+    background: var(--default-bronze);
+}
+
+ins {
+    color: var(--default-gray);
+    text-decoration: none;
+}
+
+code {
+    /* From gist.github.com */
+    /* background: #f6f8fa; */
+    /* color: #24292e; */
+    background: #616161;
+    color: #ffffff;
+}
+
+kbd {
+    color: #444d56;
+    background-color: #fafbfc;
+    border: solid 1px #c6cbd1;
+    border-bottom-color: #959da5;
+}
+
+ins::selection {
+    background: transparent;
+    color: var(--default-white);
+}
+
+/* -------------------------------------------------------------------------- */
+
+.tag-cloud.change-color li:nth-of-type(5n + 1) {
+    color: #9b59b6;
+}
+
+.tag-cloud.change-color li:nth-of-type(5n + 2) {
+    color: #e74c3c;
+}
+
+.tag-cloud.change-color li:nth-of-type(5n + 3) {
+    color: #27ae60;
+}
+
+.tag-cloud.change-color li:nth-of-type(5n + 4) {
+    color: #3498db;
+}
+
+.tag-cloud.change-color li:nth-of-type(5n + 5) {
+    color: #e67e22;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.remark-slide-content table th {
+    background: #F0F0F0;
+    color: #000000;
+}
+
+
+.remark-slide-content .table-hover table tr:hover {
+    background: #F0F0F0;
+    color: #000000;
+}
+
+.remark-slide-content .table-striped table tr:nth-child(2n) {
+    background: #F0F0F0;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.slide-grid-with-apla .grid-board p {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* -------------------------------------------------------------------------- */
+
+.remark-slide-content.slide-fullscreen-blockquote blockquote > p:before {
+    color: var(--default-red);
+}
+
+.remark-slide-content.slide-fullscreen-blockquote blockquote small {
+    color: var(--default-gray);
+}

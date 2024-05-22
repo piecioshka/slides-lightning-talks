@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.list-inline ol,
+.list-inline ul {
+    padding: 0;
+}
+.list-inline li {
+    display: inline-block;
+}
+
+.list-unstyled ol,
+.list-unstyled ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-squared ol,
+.list-squared ul {
+    list-style: square;
+}
+
+.list-circled ol,
+.list-circled ul {
+    list-style: circle;
+}

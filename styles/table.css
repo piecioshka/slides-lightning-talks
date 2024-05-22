@@ -19,10 +19,8 @@ H1 | H2 | H3
 }
 
 .remark-slide-content table th {
-    background: #F0F0F0;
-    color: #000;
     font-weight: normal;
-    border: 1px solid #000;
+    border: 1px solid #000000;
     padding: 8px;
 }
 
@@ -47,19 +45,6 @@ H1 | H2 | H3
 .remark-slide-content .table-borderless table tr th:last-child,
 .remark-slide-content .table-borderless table tr td:last-child {
     border-right: 0;
-}
-
-/* --- */
-
-.remark-slide-content .table-striped table tr:nth-child(2n) {
-    background: #F0F0F0;
-}
-
-/* --- */
-
-.remark-slide-content .table-hover table tr:hover {
-    background: #F0F0F0;
-    color: #000;
 }
 
 /* --- */

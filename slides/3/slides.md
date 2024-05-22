@@ -1,7 +1,7 @@
 class: middle, slide-invert-colors
 background-image: url(../../images/warsawjs/logo-right-1920x1200.jpg)
 
-.size60[
+.size-60[
 # WarsawJS Meetup #39<br/><span class="slim">Lightning Talks</span>
 ]
 
@@ -164,7 +164,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 ### Przykład walidacji <mark>struktury obiektu</mark>
 
-.size40[
+.size-40[
 ```javascript
 const imjv = require('is-my-valid-json')
 const validate = imjv(SCHEME);

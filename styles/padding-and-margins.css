@@ -21,6 +21,20 @@
 .px-4 { padding-left: 40px; padding-right: 40px; }
 .px-5 { padding-left: 50px; padding-right: 50px; }
 
+.pl-0 { padding-left: 0 }
+.pl-1 { padding-left: 10px; }
+.pl-2 { padding-left: 20px; }
+.pl-3 { padding-left: 30px; }
+.pl-4 { padding-left: 40px; }
+.pl-5 { padding-left: 50px; }
+
+.pr-0 { padding-right: 0 }
+.pr-1 { padding-right: 10px; }
+.pr-2 { padding-right: 20px; }
+.pr-3 { padding-right: 30px; }
+.pr-4 { padding-right: 40px; }
+.pr-5 { padding-right: 50px; }
+
 /* Margin */
 
 .m-0 { margin: 0 !important; }
@@ -43,3 +57,17 @@
 .mx-3 { margin-left: 30px; margin-right: 30px; }
 .mx-4 { margin-left: 40px; margin-right: 40px; }
 .mx-5 { margin-left: 50px; margin-right: 50px; }
+
+.ml-0 { margin-left: 0; }
+.ml-1 { margin-left: 10px; }
+.ml-2 { margin-left: 20px; }
+.ml-3 { margin-left: 30px; }
+.ml-4 { margin-left: 40px; }
+.ml-5 { margin-left: 50px; }
+
+.mr-0 { margin-right: 0 !important; }
+.mr-1 { margin-right: 10px; }
+.mr-2 { margin-right: 20px; }
+.mr-3 { margin-right: 30px; }
+.mr-4 { margin-right: 40px; }
+.mr-5 { margin-right: 50px; }

@@ -10,15 +10,17 @@
     bottom: 10px;
     width: 130px;
     height: 77px;
-    background: url('../images/my-logo/logo-piecioshka-black-text.svg') no-repeat 0 0;
+    background: url('../images/piecioshka/logo-piecioshka-black-text.svg') no-repeat 0 0;
     background-size: contain;
 }
 
 .remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-invert-colors:after,
 .remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-brown:after,
 .remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-blue:after,
-.remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-red:after {
-    background-image: url('../images/my-logo/logo-piecioshka-white-text.svg');
+.remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-red:after,
+.remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-green:after,
+.remark-slide-container:nth-of-type(n + 2) .remark-slide-content.slide-background-purple:after {
+    background-image: url('../images/piecioshka/logo-piecioshka-white-text.svg');
 }
 
 .remark-slide-content.no-display-my-logo:after {
@@ -28,6 +30,6 @@
 .logo-on-front-page {
     width: 500px;
     float: right;
-    border-left: 5px solid white;
+    border-left: 5px solid #ffffff;
     padding-left: 100px;
 }

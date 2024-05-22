@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.slide-card-list p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.slide-card-list p .card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    align-items: center;
+}
+
+.slide-card-list img {
+    width: 200px;
+    margin: 10px 25px;
+    display: block;
+}
+
+/* Dodatkowa klasa, zaokrągla obrazki — dla organizatorów */
+.slide-card-list-rounded img {
+    border-radius: 50%;
+}

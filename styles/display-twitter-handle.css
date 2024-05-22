@@ -3,12 +3,12 @@
 /* Display Twitter handle on each slides (without first) */
 
 .remark-slide-container:nth-of-type(n + 2) .remark-slide-content:after {
-    content: '@piecioshka';
+    content: "@piecioshka";
     position: absolute;
     left: 20px;
     bottom: 12px;
     font-weight: normal;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .remark-slide-content.no-display-twitter-handle:after {

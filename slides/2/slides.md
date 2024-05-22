@@ -24,7 +24,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 # Przerywnik
 
-.size60[
+.size-60[
 ## `interface` vs `abstract class`
 ]
 
@@ -32,7 +32,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-1/IMG_5632.jpg)
 
-.size40[
+.size-40[
 ```typescript
 interface MobileInterface {
     screen: string;
@@ -49,7 +49,7 @@ interface MobileInterface {
 
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-1/IMG_5632.jpg)
 
-.size40[
+.size-40[
 ```typescript
 abstract class Mobile {
     screen: 'retina';
@@ -58,7 +58,7 @@ abstract class Mobile {
         height: 5;
     };
     callMe: () => {
-        // ... 
+        // ...
     }
 }
 ```
@@ -82,7 +82,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 # Możliwości interfejsu
 
-.size30[
+.size-30[
 ```
 ?
 readonly
@@ -98,7 +98,7 @@ casting
 class: middle, center
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-1/IMG_6600.jpg)
 
-.size90[ 
+.size-90[
 `readonly vs const`
 ]
 
@@ -106,7 +106,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.
 
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../photos/edition-1/IMG_5632.jpg)
 
-.size20[
+.size-20[
 ```typescript
 type Person = string;
 
