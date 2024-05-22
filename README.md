@@ -4,57 +4,65 @@
 
 ## Plan
 
-### 1. :white_check_mark: Intersection Observer
+### 1. [2017-10-11] :white_check_mark: Intersection Observer
 
-> `WarsawJS Meetup #38`: <https://www.meetup.com/WarsawJS/events/243756529/>
+- Event: `WarsawJS Meetup #38`
+- Social: <https://www.meetup.com/WarsawJS/events/243756529/>
+- Video: <https://www.youtube.com/watch?v=516hgt6wbnk>
+- Slides: <https://piecioshka.github.io/slides-lightning-talks/slides/1/>
+    - App: <https://piecioshka.github.io/slides-lightning-talks/slides/1/app/>
 
-- <https://piecioshka.github.io/slides-lightning-talks/slides/1/>
-- <https://piecioshka.github.io/slides-lightning-talks/slides/1/app/>
+### 2. [2017-11-07] :white_check_mark: TypeScript: Interfaces
 
-### 2. :white_check_mark: TypeScript: Interfaces
+- Event: `Angular Warsaw #16`
+- Social: <https://www.meetup.com/Angular-Warsaw/events/244306535/>
+- Video: <https://www.youtube.com/watch?v=ERxtK_EsXLs>
+- Slides: <https://piecioshka.github.io/slides-lightning-talks/slides/2/>
 
-> `Angular Warsaw #16`: <https://www.meetup.com/Angular-Warsaw/events/244306535/>
+### 3. [2017-11-08] :white_check_mark: Is My JSON Valid
 
-- <https://piecioshka.github.io/slides-lightning-talks/slides/2/>
+- Event: `WarsawJS Meetup #39`
+- Social: <https://www.meetup.com/WarsawJS/events/244354442/>
+- Video: <https://www.youtube.com/watch?v=U6MICL37ju4>
+- Slides: <https://piecioshka.github.io/slides-lightning-talks/slides/3/>
+    - <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/1-happy-path.html>
+    - <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/2-error-handling.html>
+    - <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/3-error-handling-server-error.html>
+    - <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/4-malformed-response.html>
 
-### 3. :white_check_mark: Is My JSON Valid
+### 4. [2018-03-14] :white_check_mark: Największy projekt w moim życiu... IPLA.tv
 
-> `WarsawJS Meetup #39`: <https://www.meetup.com/WarsawJS/events/244354442/>
+- Event: `WarsawJS Meetup #43`
+- Social: <https://www.meetup.com/WarsawJS/events/247244895/>
+- Video: <https://www.youtube.com/watch?v=YxYvIXgPp2k>
+- Slides: <https://piecioshka.github.io/slides-lightning-talks/slides/4/>
 
-- <https://piecioshka.github.io/slides-lightning-talks/slides/3/>
-- <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/1-happy-path.html>
-- <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/2-error-handling.html>
-- <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/3-error-handling-server-error.html>
-- <https://piecioshka.github.io/slides-lightning-talks/slides/3/app/4-malformed-response.html>
+### 5. [2018-05-09] :white_check_mark: 5 zasad zakończenia współpracy
 
-### 4. :white_check_mark: Największy projekt w moim życiu... IPLA.tv
+- Event: `WarsawJS Meetup #45`
+- Social: <https://www.meetup.com/WarsawJS/events/247245001/>
+- Video: <https://www.youtube.com/watch?v=Dt1GvTyRuic>
+- Slides: <https://piecioshka.github.io/slides-lightning-talks/slides/5/>
 
-> `WarsawJS Meetup #43`: <https://www.meetup.com/WarsawJS/events/247244895/>
+### 6. [2018-07-11] :white_check_mark: Mocha: Twoje pierwsze testy jednostkowe
 
-- <https://piecioshka.github.io/slides-lightning-talks/slides/4/>
+- Event: `WarsawJS Meetup #47`
+- Social: <https://www.meetup.com/WarsawJS/events/247245068/>
+- Video: <https://www.youtube.com/watch?v=gzMxRuLY_cs>
+- Slides: <https://piecioshka.github.io/slides-lightning-talks/slides/6/>
 
-### 5. :white_check_mark: 5 zasad zakończenia współpracy
+### 7. [2018-08-08] :white_check_mark: Nightwatch.js: Twoje pierwsze testy end-to-end
 
-> `WarsawJS Meetup #45`: <https://www.meetup.com/WarsawJS/events/247245001/>
+- Event: `WarsawJS Meetup #48`
+- Social: <https://www.meetup.com/WarsawJS/events/247245091/>
+- Video: <https://www.youtube.com/watch?v=4SWhYwi9AEg>
+- Slides: <https://piecioshka.github.io/slides-lightning-talks/slides/7/>
 
-- <https://piecioshka.github.io/slides-lightning-talks/slides/5/>
+### 8. [2019-04-10] :white_check_mark: Solidarity
 
-### 6. :white_check_mark: Mocha: Twoje pierwsze testy jednostkowe
-
-> `WarsawJS Meetup #47`: <https://www.meetup.com/WarsawJS/events/247245068/>
-
-- <https://piecioshka.github.io/slides-lightning-talks/slides/6/>
-
-### 7. :white_check_mark: Nightwatch.js: Twoje pierwsze testy end-to-end
-
-> `WarsawJS Meetup #48`: <https://www.meetup.com/WarsawJS/events/247245091/>
-
-- <https://piecioshka.github.io/slides-lightning-talks/slides/7/>
-
-### 8. :white_check_mark: Solidarity
-
-> `WarsawJS Meetup #56`: <https://www.meetup.com/WarsawJS/events/259419544/>
-
+- Event: `WarsawJS Meetup #56`
+- Social: <https://www.meetup.com/WarsawJS/events/259419544/>
+- Video: https://www.youtube.com/watch?v=TkfExe4beP8
 - Slajdów nie było
 
 ---
