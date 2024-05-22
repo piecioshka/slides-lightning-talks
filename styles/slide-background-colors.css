@@ -14,7 +14,7 @@
 
 .invert-colors,
 .remark-slide-content.slide-invert-colors {
-    background: #000000;
+    background-color: #000000;
     color: #ffffff;
 }
 
