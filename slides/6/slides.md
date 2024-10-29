@@ -84,8 +84,8 @@ class: middle
 .size-40[
 * `console.assert`
 * `assert`
-* [should](http://npmjs.com/package/should)
-* [expect.js](http://npmjs.com/package/expect.js)
+* [should](https://www.npmjs.com/package/should)
+* [expect.js](https://www.npmjs.com/package/expect.js)
 * [better-assert](https://www.npmjs.com/package/better-assert)
 ]
 
