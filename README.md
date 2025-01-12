@@ -1,6 +1,6 @@
 # slides-lightning-talks
 
-:clipboard: Slides for my lightning talks sessions
+📋 Slides for my lightning talks sessions
 
 ## Plan
 
@@ -69,4 +69,4 @@
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2017-2019
+[The MIT License](https://piecioshka.mit-license.org) @ 2017
